@@ -1,11 +1,13 @@
 # zero-knowledge-proof
 Zero_Knowledge-proof demonstration using discrete log.  
 
-#Problem
+#Problem:
+
 Peggy wants to prove to Victor that she knows the discrete log of a given value in a given group.
 Peggy proves to know the value of x (for example her password).
 
 #Implementaion:
+
 Say g is the generator and p is a large prime.
 Peggy calculates first for one time the value y = (g^x) mod p  and sends the value to Victor.
 Peggy repeatedly calculates a random value r and C = (g^r) mod p . She tranfers the value C to Victor.
