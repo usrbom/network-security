@@ -21,10 +21,11 @@ Peggy proves to know the value of x (for example her password).
 This is verified for a fixed number of iterations to ensure Peggy does possess the true value of x.
 
 
-# Oblivios transfer
+# Oblivious transfer
 Demonstration of Rabin's 1-2 oblivious transfer protocol.
 
 #Problem:
+
 The sender(Alice) has two messages m0 and m1, and the receiver(Bob) has a bit b, and the receiver wishes to receive mb, without the sender learning b, while the sender wants to ensure that the receiver receives only one of the two messages.
 
 #Implementation:
